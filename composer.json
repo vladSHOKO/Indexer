@@ -1,0 +1,21 @@
+{
+    "name": "vladislav/indexer",
+    "description": "Library for indexing repo and making json based on knowledge base",
+    "type": "library",
+    "require": {
+        "symfony/yaml": "8.1.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vladislav\\Indexer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vladislav Kuzminov",
+            "email": "vladislav_kuzminov.00@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev"
+}
